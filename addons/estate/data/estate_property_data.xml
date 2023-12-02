@@ -1,0 +1,34 @@
+<odoo>
+    <data>
+        <record id="property_1" model="estate.property">
+            <field name="name">Luxury Villa</field>
+            <field name="description">A beautiful villa with stunning views.</field>
+            <field name="postcode">12345</field>
+            <field name="date_availability">2023-12-01</field>
+            <field name="expected_price">1000000.00</field>
+            <field name="selling_price">950000.00</field>
+            <field name="bedrooms">4</field>
+            <field name="living_area">350</field>
+            <field name="facades">2</field>
+            <field name="garage">True</field>
+            <field name="garden">True</field>
+            <field name="garden_area">500</field>
+            <field name="garden_orientation">South</field>
+        </record>
+        <record id="property_2" model="estate.property">
+            <field name="name">Cozy Apartment</field>
+            <field name="description">A comfortable apartment in the city center.</field>
+            <field name="postcode">54321</field>
+            <field name="date_availability">2023-12-01</field>
+            <field name="expected_price">250000.00</field>
+            <field name="selling_price">240000.00</field>
+            <field name="bedrooms">2</field>
+            <field name="living_area">120</field>
+            <field name="facades">1</field>
+            <field name="garage">False</field>
+            <field name="garden">False</field>
+            <field name="garden_area">100</field>
+            <field name="garden_orientation">South</field>
+        </record>
+    </data>
+</odoo>
